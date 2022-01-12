@@ -72,7 +72,7 @@ hibernate {
     singleSession = true
 }
 
-grails.server.port.http = 8085
+server.port = 9092
 
 
 oracleProperties {
@@ -109,7 +109,6 @@ environments {
                 url = 'jdbc:oracle:thin:@localhost:1521/orcl'
                 username = 'rl'
                 password = 'rl'
-//                dbCreate= "update"
                 properties = oracleProperties
             }
     }
